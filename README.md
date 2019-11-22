@@ -5,7 +5,15 @@
 ```bash
 # clone the repo
 git clone https://github.com/MAP-Team/data-science.git
+# start the virtual enviornment instance
+pipenv shell
+# install the dependant modules
+pipenv isntall
+# start facial detection
+python3 track.py
 ```
+
+![Example](/media/example.png)
 
 # Contribution Guidlines
 
