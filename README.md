@@ -13,7 +13,7 @@ pipenv isntall
 python3 track.py
 ```
 
-![Example](/media/example.png)
+![Example](/media/test.png)
 
 # Contribution Guidlines
 
