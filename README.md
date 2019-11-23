@@ -5,7 +5,15 @@
 ```bash
 # clone the repo
 git clone https://github.com/MAP-Team/data-science.git
+# start the virtual enviornment instance
+pipenv shell
+# install the dependant modules
+pipenv isntall
+# start facial detection
+python3 track.py
 ```
+
+![Example](/media/test.png)
 
 # Contribution Guidlines
 
@@ -25,7 +33,7 @@ We use github to host code, to track issues and feature requests, as well as acc
 
 Pull requests are the best way to propose changes to the codebase (we use [Github Flow](https://guides.github.com/introduction/flow/index.html)). We actively welcome your pull requests:
 
-1. Clone repo and create your branch from `master`.
+1. Clone the repo and create your branch from `master`.
 2. If you've added code that should be tested, add tests.
 3. If you've changed APIs, update the documentation.
 4. Ensure the test suite passes.
