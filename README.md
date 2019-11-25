@@ -8,12 +8,24 @@ git clone https://github.com/MAP-Team/data-science.git
 # start the virtual enviornment instance
 pipenv shell
 # install the dependant modules
-pipenv isntall
+pipenv install
 # start facial detection
 python3 track.py
 ```
 
 ![Example](/media/test.png)
+
+## Todo
+
+[x] Basic Object Detection
+[x] Distance Calculation With Single Image
+[ ] Distance Calculation With Video Stream
+
+## Built With
+
+-   [openCV](https://www.djangoproject.com/) - Web Framework used
+-   [numpy](https://numpy.org/) - Array Computation
+-   [imutils](https://pypi.org/project/imutils/) - A series of convenience functions to make basic image processing functions such as translation, rotation, resizing, skeletonization, displaying Matplotlib images, sorting contours, detecting edges.
 
 # Contribution Guidlines
 
