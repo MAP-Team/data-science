@@ -38,6 +38,9 @@ functions:
     * distance_to_camera() - returns the distance from the maker to the camera
 """
 
+__author__ = 'Gary Frederick'  # slightflex
+__version__ = 0.1   # file version
+
 # external modules
 import numpy as np              # for array computing
 from imutils import paths       # paths module
